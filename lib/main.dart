@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:nhhsapp/signup_page.dart';
-=======
 import 'package:nhhsapp/views/dad_page.dart';
 import 'package:nhhsapp/views/mom_page.dart';
->>>>>>> 29a72ece1923c1a451c1b085abe5503e9592f634
 
 void main() {
   runApp(MyApp());
@@ -18,9 +15,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-<<<<<<< HEAD
-      home: SignupPage(),
-=======
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -117,7 +111,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
->>>>>>> 29a72ece1923c1a451c1b085abe5503e9592f634
     );
   }
 }
